@@ -1,0 +1,11 @@
+-> Design document on how to crawl a website 
+    and save images and text from the website.
+
+
+1. For this process, we need to use a web crawler. And usually python has frameworks for web crawling and scraping.
+2. Take a note of the ip address, domain name and URL of the website that you want to crawl.
+2. Give the URL to the crawler to get the page content such as images and text. It 
+3. Traverse through the page and list all the outgoing links from the page content.
+4. Along with it store all the images and data. The page's content can be downloaded into a folder in html code and images can be downloaded in the same folder into the database.
+5. Repeat the process Step 2 and Step 3 for all outgoing links individually.
+6. Also, store all the visited URLs in a database or map table to check whether a page is crawled or not.
